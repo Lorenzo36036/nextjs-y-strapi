@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pruebas",
+  "info": {
+    "singularName": "prueba",
+    "pluralName": "pruebas",
+    "displayName": "prueba",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

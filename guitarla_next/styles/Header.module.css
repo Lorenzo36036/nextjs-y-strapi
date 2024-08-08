@@ -1,0 +1,39 @@
+.header{
+ background-image: linear-gradient(to right, rgb(0 0 0 / 0.8), rgb(0 0 0 / 0.7)), url(../public/imagen/guitarra.png) ;
+ padding: 5rem;
+ background-size: cover;
+ background-position: center;
+}
+
+.barra{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+.navegacion{
+  margin: 2rem;
+  display: flex;
+  gap: 5rem;
+}
+
+@media (min-width:768px){
+  .barra{
+   flex-direction: row;
+   justify-content: space-between;
+  }
+
+}
+
+
+.navegacion a {
+ color: var(--blanco);
+ text-decoration: none;
+ font-weight: 700;
+ font-size: 1.5rem;
+ text-transform: uppercase;
+
+}
+
+

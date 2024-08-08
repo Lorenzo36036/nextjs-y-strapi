@@ -1,0 +1,25 @@
+
+.divStyle{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+
+.formStyle{
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.formStyle input{
+ padding: 10px;
+ margin-bottom: 10px;
+
+}
+
+.formStyle button{
+  padding: 10px;
+}

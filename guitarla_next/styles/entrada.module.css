@@ -1,0 +1,48 @@
+.contenido{
+    margin: 16px;
+    padding: 2rem;
+
+
+}
+
+.contenido h3{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.fecha{
+  font-size: 1.6rem;
+  color : var(--primary);
+  font-weight: 700;
+
+}
+
+.resumen{
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
+
+
+.enlace{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--negro);
+  border: solid 2px var(--primary);
+  padding: 2rem 2rem;
+  transition-property: background-color;
+  transition-duration: .3s;
+}
+
+
+.enlace:hover{
+  background-color: var(--primary);
+  color: var(--blanco);
+}
